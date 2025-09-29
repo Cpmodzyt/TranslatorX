@@ -23,18 +23,17 @@ A Telegram bot that translates subtitles (.srt, .ass, .vtt, .sub) into any langu
 
 ## 🛠 Deployment
 
-### Local
+## Local
 ```
-bash
 pip install -r requirements.txt
 python bot.py
 ```
-###Docker
+## Docker
 ```
 docker build -t subtitle-bot .
 docker run -e BOT_TOKEN=your_token subtitle-bot
 ```
-###Heroku
+## Heroku
 ```
 heroku create
 heroku config:set BOT_TOKEN=your_token
