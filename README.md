@@ -48,11 +48,3 @@ This bot is **fully functional**:
 - Multi-format support, free translation only using `googletrans`  
 
 ---
-
-If you want, I can also **add an inline translation mode** so you can type text in any chat and get Sinhala translation instantly without sending files.  
-
-Do you want me to add that?
-
-
-
-Docker
