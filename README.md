@@ -40,7 +40,6 @@ pip install -r requirements.txt
 
 # 5. Start bot
 python bot.py or python3 bot.py
-
 ```
 ## Docker
 ```
