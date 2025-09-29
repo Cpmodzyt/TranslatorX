@@ -25,8 +25,19 @@ A Telegram bot that translates subtitles (.srt, .ass, .vtt, .sub) into any langu
 
 ## Local
 ```
+# 1. Install full Python support if not already
+sudo apt update
+sudo apt install python3-venv python3-pip -y
+
+# 2. Create a virtual environment inside your project
+python3 -m venv venv
+
+# 3. Activate the virtual environment
+source venv/bin/activate
+
+# 4. Now install requirements
 pip install -r requirements.txt
-python bot.py
+
 ```
 ## Docker
 ```
