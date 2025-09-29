@@ -38,6 +38,9 @@ source venv/bin/activate
 # 4. Now install requirements
 pip install -r requirements.txt
 
+# 5. Start bot
+python bot.py or python3 bot.py
+
 ```
 ## Docker
 ```
